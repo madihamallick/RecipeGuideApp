@@ -9,7 +9,7 @@
 
     <ImageView
         android:id="@+id/cover"
-        android:layout_width="150dp"
+        android:layout_width="200dp"
         android:layout_marginTop="10dp"
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
@@ -22,7 +22,7 @@
     <TextView
         android:id="@+id/title"
         android:layout_width="match_parent"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="5dp"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:lines="2"
@@ -34,8 +34,8 @@
     </TextView>
     <TextView
         android:id="@+id/ingredients"
-        android:layout_margin="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_margin="8dp"
+        android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -43,16 +43,15 @@
         android:lines="8"
         android:text="@string/recipe"
         android:textColor="@color/grey"
-        android:textSize="15sp">
+        android:textSize="13sp">
 
     </TextView>
 
     <TextView
         android:id="@+id/method"
-        android:layout_margin="25dp"
+        android:layout_margin="9dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
         android:gravity="center"
         android:lines="25"
         android:text="@string/recipe"
